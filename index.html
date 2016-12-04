@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>みどり島 - スイーツの天国</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<!-- js -->
+		<script src="js/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- //js -->
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- //end-smoth-scrolling -->
+	</head>
+	<body>
+		<!-- header -->
+		<div id="home" class="header">
+			<div class="top-nav">
+						<div class="nav-icon">
+							<a href="#" class="right_bt" id="activator"><span> </span> </a>
+						</div>
+						 <div class="box" id="box" style="top: -1000px;">
+							 <div class="box_content">
+								<div class="box_content_center">
+								 	<div class="form_content">
+										<div class="menu_box_list">
+											<ul>
+												<li><a href="#home" class="scroll"><span>ホーム</span></a></li>
+												<li><a href="#gallery" class="scroll"><span>ギャラリー</span></a></li>
+												<li><a href="#skills" class="scroll"><span>スキル</span></a></li>
+												<li><a href="#contact" class="scroll"><span>ご連絡</span></a></li>
+												<div class="clearfix"> </div>
+											</ul>
+										</div>
+										<a class="boxclose" id="boxclose"> <span> </span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					<!-- start-click-drop-down-menu -->
+			        <!-- start-dropdown -->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide();
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("500");
+									return false; //Prevent the browser jump to the link anchor
+							});
+
+						});
+					</script>
+					<!-- //End-click-drop-down-menu -->
+					<!-- top-nav -->
+				</div>
+			<div class="head-info">
+				<div class="head-info-text">
+					<p>デザートの部屋</p>
+					<h3>みどり島</h3>
+
+				</div>
+			</div>
+		</div>
+		<!-- content-got -->
+		<div class="content-got">
+			<div class="col-md-4 got-info">
+				<div class="got-info-text">
+					<p>スイーツの</p>
+					<br>
+					<h2>天国</h2>
+					<br>
+					<p class="top-text">
+						みどり島
+					</p>
+				</div>
+				<p class="middle-text">
+					今日のスペシャル
+				</p>
+				<p class="bottom-text">
+中は濃厚でとろりとした生チョコ、外はサクサクのタルト生地、プレゼントとしてもok、食べやすいミニタルトで作ってみました。				</p>
+				<p class="read">
+					<a href="#">暑い夏に食べて欲しい～♪冷たく冷やして美味～♥オレンジジュースとトマトで簡単に作っちゃいましょ～♪</a>
+				</p>
+				<br>
+			</div>
+
+
+			<div class="col-md-4 img-red">
+				<img src="images/14.jpg" alt="" />
+				<div class="img-info">
+					<h3>今年の夏</h3>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!-- //content-got -->
+		<!-- gallery -->
+		<div id="gallery">
+
+			<br>
+			<div class="containers">
+				<div class="row">
+					<div class="col-md-3 img-red">
+						<h3 >マカロン</h3>
+
+						<img src="images/13.jpg" alt="" />
+					</div>
+
+
+						<div class="col-md-3 img-red">
+							<h3>アイクリーム　プリン</h3>
+
+							<img src="images/4.jpg" alt="" />
+
+					</div>
+
+
+						<div class="col-md-3 img-red">
+							<h3>チョコムース</h3>
+							<img src="images/17.jpg" alt="" />
+
+					</div>
+				</div>
+
+
+
+			<div class="containers">
+
+					<div class="col-md-4 img-red">
+						<h3 >フルーツ</h3>
+						<img src="images/16.jpg" alt="" />
+					</div>
+						<div class="col-md-3 img-red">
+							<h3>もちホットチョコ</h3>
+							<img src="images/18.jpg" alt="" />
+					</div>
+						<h3>チョコムース</h3>
+						<div class="col-md-4 img-red">
+							<img src="images/20.jpg" alt="" />
+					</div>
+			</div>
+		</div>
+
+		<!-- skills -->
+		<h3>スペシャル</h3>
+		<p>混ぜて焼くだけ★簡単おいしいパウンド生地です♪ 覚えやすい配合でアレンジも自在。
+おやつやプレゼントにも。</p>
+		<div id="skills" class="skills">
+			<div class="skills-info">
+			</div>
+		</div>
+		<h4>和風♪大豆とチョコで✿抹茶クッキー✿</h4>
+		<h4>黄金比率★理想のパウンドケーキ</h4>
+		<h4>完熟バナナとくるみのマフィン</h4>
+		<!-- //skills -->
+		<!-- contact -->
+		<div class="contact">
+			<div class="contact-bg">
+				<!-- container -->
+				<div class="container">
+					<div class="contact-text">
+						<div class="col-md-6">
+
+
+
+									<p class="text-white">簡単にワンランク上のスイーツ♡子供にも大好評 友達からはまるで紀の善⁈と驚かれる 濃厚半生パンナコッタ♡人気検索1位♡</p>
+
+						</div>
+						<div class="col-md-6">
+							<div id="contact" class="Quick-Contact">
+								<h3>ご連絡</h3>
+								<form>
+									<input type="text" class="text" maxlength="20" value="Eメール" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+									<input type="text" class="text" maxlength="20" value="電話番号" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone Number';}">
+									<textarea class="text" value="メッセージ" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">メッセージ</textarea>
+									<input type="submit" value="送信">
+								</form>
+							</div>
+
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<!-- //container -->
+				<div class="border-bottom"> </div>
+				<!-- footer -->
+				<div class="footer">
+					<!-- container -->
+					<div class="container">
+						<div class="footer-left">
+							<p>Copyright &copy; 2016.みどり島 All rights reserved.</p>
+						</div>
+						<div class="footer-right">
+							<ul>
+								<li><a href="#"><span class="fb"> </span></a></li>
+								<li><a href="#"><span class="twit"> </span></a></li>
+								<li><a href="#"><span class="dribble"> </span></a></li>
+								<li><a href="#"><span class="skip"> </span></a></li>
+								<li><a href="#"><span class="msg"> </span></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+
+										var defaults = {
+								  			containerID: 'toTop',
+											containerHoverID: 'toTopHover',
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+</body>
+</html>
