@@ -21,7 +21,6 @@
 </ul>
 <h1> Mobile Layout </h1>
 <img src="Preview/1.JPG"/>
-<img src="Preview/1-1.JPG"/>
 <img src="Preview/2.JPG"/>
 <img src="Preview/3.JPG"/>
 <img src="Preview/4.JPG"/>
@@ -29,3 +28,4 @@
 <img src="Preview/6.JPG"/>
 <img src="Preview/7.JPG"/>
 <img src="Preview/8.JPG"/>
+<img src="Preview/1-1.JPG"/>
